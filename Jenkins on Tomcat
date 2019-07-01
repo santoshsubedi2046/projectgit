@@ -1,0 +1,10 @@
+Download Tomcat
+unzip and place tomcat folder any location
+copy/place the jenkins.war file inside tomcat/webapps folder
+Goto commandpromt(cmd)-windows or terminal -mac 
+-goto tomcat/bin directory
+-make all files executable: chmod +x *.sh
+Start Tomcat: ./startup.sh| ./shutdown.sh 
+verify if tomcat started: browser- http://localhost:8080
+verify if jenkins is running on tomcat: http://localhost:8080/jenkins
+--to start jenkins(standalone) on different port :java -jar --httpPort=9090
